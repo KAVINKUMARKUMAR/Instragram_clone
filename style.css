@@ -1,0 +1,449 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(to right,rgb(201, 162, 7),rgba(225, 10, 10, 0.519),rgba(132, 4, 4, 0.579)); */
+}
+main{
+    display: flex;
+    height: 100%;
+}
+nav > .title > a > img{
+    width: 170px;
+    padding: 35px;
+}
+nav{
+    width:100%;
+    height:100%;
+}
+li{
+    list-style:none ;
+    margin-top: 18px;
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+}
+ul{
+    padding-left: 15px;
+}
+.menu > ul >li > a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding-left: 15px;
+}
+#act{
+    font-size: larger;
+    font-weight: 650;   
+}
+.menu > ul >li > a > img{
+    padding-right: 15px;
+    position: relative;
+    top: 5px;
+    width: 40px;
+}
+#profile{
+    width: 28px;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.364);
+    border-radius: 5px;
+}
+.menu{
+    position: relative;
+    bottom: 20px;
+}
+.vertical_line{
+    width: 1px;
+    background-color:rgba(128, 128, 128, 0.252);
+}
+.navbar{
+    display: flex;
+    position:fixed;
+    left: 0%;
+    height: 100%;
+    width: 280px;
+}
+.story_box{
+    display: flex;
+    width: 850px;
+    height: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.profile_box{
+    .profile_tag{
+        position: relative;
+        left: 107px;
+        top: 32px;
+        p{
+            font-size: 13px;
+            font-weight:499;
+            /* img{
+                width: 16px;
+                position: relative;
+                top: 4px;
+            } */
+        }
+    }
+    .profile_story{
+        width: 70px;
+        height: 70px;
+        clip-path: circle();
+        background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+        position: relative;
+        left: 100px;
+        top: 30px; 
+        right: 15px;
+        margin-right: 15px;
+        .profile_white{
+            width: 65px;
+            height: 65px;
+            clip-path: circle();
+            background-color: white;
+            padding: 30px;
+            position: relative;
+            left: 2.5px;
+            top: 2.5px;
+            .profile_img{
+                width: 60px;
+                height:60px;
+                background-color: blue;
+                clip-path: circle();
+                position: relative;
+                right: 27.5px;
+                bottom: 27.5px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    
+                }
+            }
+        }
+    }
+}
+.mainbar{
+    display: inline-block;
+    width: 878px;
+    padding-left: 28px;
+    /* background-color: #bc1888; */
+    margin-left: 249px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.post_main{
+    height: auto;
+    /* background-color: aqua; */
+    width: 700px;
+}
+.post_container{
+    height: 100%;
+    margin-left: 178px;
+    width: 500px;
+    /* background-color: #cc2366; */
+    .post_box{
+        display: flex;
+        width: 500px;
+        height: 60px;
+        /* background-color: #f09433; */
+        /* justify-content: space-between; */
+        .post_head{
+            display: flex;
+            /* justify-content: space-between; */
+            position: relative;
+            right: 15px;
+            .profile_story{
+                width: 40px;
+                height: 40px;
+                clip-path: circle();
+                background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+                position: relative;
+                left: 20px;
+                top: 10px; 
+                right: 15px;
+                margin-right: 15px;
+                cursor: pointer;
+                .profile_white{
+                    width: 35px;
+                    height: 35px;
+                    clip-path: circle();
+                    background-color: white;
+                    /* padding: 30px; */
+                    position: relative;
+                    left: 2.5px;
+                    top: 2.5px;
+                    .profile_img{
+                        width: 31px;
+                        height:31px;
+                        background-color: blue;
+                        clip-path: circle();
+                        position: relative;
+                        left: 2px;
+                        top: 2px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+               }   
+            }
+        }
+    }
+}
+.post_tag{
+    display: flex;
+    width: 170px;
+    position: relative;
+    bottom: 5px;
+    p{
+        margin: 12px;
+        cursor: pointer;
+        img{
+            width: 15px;
+            margin-left: 5px;
+            position: relative;
+            top: 3px;
+        }
+    }
+.tit .tit_about{
+    color: gray;
+    margin-left: 15px;
+    font-size: 15px;
+    position: relative;
+    bottom: 13px;
+}
+    .dot{
+        width: 4px;
+        height: 4px;
+        background-color: gray;
+        position: relative;
+        margin-top: 24px;
+        position: relative;
+        right: 7px;
+        bottom: 1.5px;
+        border-radius: 5px;
+    }
+    .hours{
+        position: relative;
+        top: 0.5px;
+        right: 15px;
+        color: rgb(119, 117, 117);
+    }
+}
+.post_more{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 235px;
+    cursor: pointer;
+}
+.post{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #20ba1d; */
+    .react_box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        /* background-color: #cc2366; */
+        .like_logo{
+            display: flex;
+            gap: 10px;
+            /* margin-left: 10px; */
+            height: 27px;
+            width: 27px;
+        }
+        .save_logo{
+            /* margin-right: 15px; */
+            height: 27px;
+            width: 27px;
+            cursor: pointer;
+        }
+    }
+    .post_main{
+        /* background-color: aqua; */
+        width: 100%;
+        height: 650px;
+        .post_img{
+            /* background-color: #e6683c; */
+            width: 100%;
+            height: 470px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.likes{
+    font-size:20px;
+    font-weight: 00;
+}
+.about{
+    .post_name{
+        /* background-color: #f09433; */
+        width: 100%;
+        label{
+            font-size: 14px;
+        }
+        .hash{
+            color: rgb(29, 89, 167);
+        }
+        #mor{
+            color: gray;
+            margin-left: 4px;
+            cursor: pointer;
+        }
+        h6{
+            /* background-color: aqua; */
+            width: 90px;
+            height: 20px;
+            font-size: 13.5px;
+            display: inline-block;
+            img{
+                width: 10px;
+                height: 16px;
+                position: relative;
+                top: 3px;
+                left: 2px;
+            }
+        }
+    }
+    .post-about{
+        /* background-color: #dc2743; */
+        margin-top: 8px;
+        p{
+            color: gray;
+            padding-bottom: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            /* background-color: #cc2366; */
+        }
+    }
+}
+.horizontal_line{
+    background-color:rgba(128, 128, 128, 0.515);
+    width: 490px;
+    height: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.suggestpage{
+    /* background-color: #f09433; */
+    width: 393px;
+    /* height: 100%; */
+    .suggest_page{
+        /* background-color: #bc1888; */
+        width: 80%;
+        height: 700px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .sug_profile{
+        /* background-color: aqua; */
+        width: 90%;
+        height: 60px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .sug_img_box{
+            display: flex;
+        }
+        .sug_img{
+            width: 40px;
+            height: 40px;
+            clip-path: circle();
+            cursor: pointer;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .sug_tag{
+            padding-left: 10px;
+            p{
+                font-size: 14px;
+                cursor: pointer;
+            }
+            i{
+                font-size: 13px;
+                padding-left: 1px;
+                position: relative;
+                bottom: 4px;
+            }
+        }
+    }
+}
+.sw{
+    p{
+        color: rgb(17, 130, 216);
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+.sug_seeall{
+    /* background-color: blanchedalmond; */
+    width: 90%;
+    margin-top: 10px;
+    .sug_seeall_det{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: 15px;
+            padding-left: 14px;
+            color: rgb(94, 88, 88);
+            font-weight: 700px;
+        }
+        label{
+            font-weight: 500;
+            font-size: 13px;
+            padding-right: 9px;
+            cursor: pointer;
+        }
+    }
+}
+.sug_rec{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.sug_about{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 100px;
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 28px;
+    p{
+        font-size:10px ;
+        color: gray;
+        line-height: 22px;
+        cursor: pointer;
+        
+    }
+    label{
+        color: gray;
+        font-size: 11px;
+        position: relative;
+        top: 20px;
+        cursor: pointer;
+    }
+}
+.like_logo:hover{
+    img{
+        cursor: pointer;
+    }
+}
